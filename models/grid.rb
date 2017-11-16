@@ -1,6 +1,6 @@
 class Grid
 	def initialize(size = {"x" => 3, "y" => 3})
-		@columns = Array.new size["x"] { Array.new size["y"] {"."}}
+		@columns = Array.new size["x"] { Array.new size["y"] { nil }}
 	end
 
 	def width
